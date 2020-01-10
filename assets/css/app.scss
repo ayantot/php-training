@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+$red: #dc3545;
+$green: #28a745;
+$blue: #007bff;
+body {
+    background-color: $blue;
+}
+
+.navbar {
+    background-color: $red;
+    .navbar-brand {
+        color: $green;
+    }
+    .nav-link {
+        color: $green;
+    }
+}
